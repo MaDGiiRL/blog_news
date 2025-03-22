@@ -1,0 +1,157 @@
+body {
+    background-color: #141414;
+    font-family: "Poppins";
+}
+
+.text-yellow {
+    color: #FFD11A;
+}
+
+.link-yellow {
+    color: #FFD11A;
+    transition: all 1s;
+}
+
+.link-yellow:hover {
+    color: white
+}
+
+.border-top-custom {
+    border-top: 1px solid #FFD11A
+}
+
+.color-dark {
+    background-color: #262626;
+}
+
+/* Navbar */
+.top-banner {
+    background: #141414;
+    color: #aaa;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.navbar {
+    background: #1A1A1A;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    margin-right: 15px;
+}
+
+.btn-custom {
+    background: #FFD11A;
+    color: #000;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+.btn-custom:hover {
+    background: #e6b800;
+}
+
+.btn-custom-out {
+    border: 1px solid #98989A;
+    color: #989898;
+}
+
+.btn-custom-out:hover {
+    border: 1px solid white;
+    color: white;
+}
+
+/*Header*/
+
+.div5 {
+
+    background-image: url(/public/images/Container.png);
+    background-repeat: no-repeat;
+}
+
+.counter-box {
+
+    padding: 30px 0;
+    color: white;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.counter-number {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #ffcc00;
+}
+
+.border {
+    border: 1px solid rgba(152, 152, 152, 0.094) !important
+}
+
+.border-custom {
+    border-top: 1px solid rgba(152, 152, 152, 0.094);
+    border-bottom: 1px solid rgba(152, 152, 152, 0.094);
+    border-right: 1px solid rgba(152, 152, 152, 0.094);
+}
+
+.border-custom-2 {
+    border-top: 1px solid rgba(152, 152, 152, 0.094);
+    border-bottom: 1px solid rgba(152, 152, 152, 0.094);
+    border-right: none;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.border-custom-3 {
+    border-top: none;
+    border-bottom: 1px solid rgba(152, 152, 152, 0.094);
+    border-right: 1px solid rgba(152, 152, 152, 0.094);
+}
+
+.border-left{
+    border-left: 1px solid rgba(152, 152, 152, 0.094);
+}
+
+/*Top Headline*/
+.card {
+    border: none;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.card h6 {
+    color: white;
+    text-transform: none;
+
+}
